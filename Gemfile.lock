@@ -52,7 +52,6 @@ GEM
       capybara (>= 2.0.2, < 2.5.0)
       json
     chain-ruby (2.0.1)
-      chain-bitcoin-ruby (= 0.0.1)
     coderay (1.1.0)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
