@@ -250,7 +250,6 @@ DEPENDENCIES
   bootstrap-sass
   capybara
   capybara-webkit
-  chain-ruby
   coffee-rails (~> 4.0.0)
   database_cleaner
   devise
