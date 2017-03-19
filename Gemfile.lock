@@ -128,7 +128,6 @@ GEM
       mini_portile (~> 0.6.0)
     onchain (2.1.4)
       bitcoin-ruby
-      chain-ruby (~> 2.0.1)
       httparty
       money-tree
     orm_adapter (0.5.0)
