@@ -41,6 +41,8 @@ group :production do
   gem 'unicorn'
 end
 group :test do
+  gem 'capybara'
+  gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'simplecov'
