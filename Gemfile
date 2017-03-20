@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.2.2'
+ruby '2.3.3'
 gem 'rails', '4.1.6'
 gem 'sass-rails', '~> 4.0.3'
 gem 'uglifier', '>= 1.3.0'
@@ -7,6 +7,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'bitcoin-ruby', git: 'https://github.com/lian/bitcoin-ruby', branch: 'master', require: 'bitcoin'
+gem 'chain-ruby', git: 'https://github.com/charleyhine/chain-ruby', branch: 'master', require: 'bitcoin'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
@@ -40,8 +41,6 @@ group :production do
   gem 'unicorn'
 end
 group :test do
-  gem 'capybara'
-  gem 'capybara-webkit'
   gem 'database_cleaner'
   gem 'launchy'
   gem 'simplecov'
