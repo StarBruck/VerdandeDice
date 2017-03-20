@@ -27,7 +27,7 @@
     },
     "master_public_keys": {
       "description": "Master public keys taked from the OnChain fund you want to use.",
-      "value": "MPK1,MPK2,MPK3",
+      "value": "18FLaw2fkzzua7C72BdVs613wuAsuw9jvb,1BmPuu1dW377WVZdszCptbq2NqQpnxP6cjMPK1",
       "required": true
     },
     "RAILS_ENV": "production"
